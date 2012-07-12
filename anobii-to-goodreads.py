@@ -95,8 +95,7 @@ target.append(["Title", "Author", "Additional Authors", "ISBN", "ISBN13", "My Ra
 
 for l in reader:
 	isbn = l[0].replace('[', '').replace(']', '')
-#	if (isbn == "9780575053182"):
-#		print isbn
+
 	title = l[1]
 	subtitle = l[2] # Unused
 	author = l[3]
